@@ -1,0 +1,44 @@
+Features: For each feature you implement, move to the Implemented section and
+explain who did it (utorid) and how you did it. You can consider these as 
+almost user stories, if you just add a bit to them. Add more features/user stories at the bottom.
+Move them up when completed.
+
+------------------------------------------------------------------------------------
+Implemented: 
+------------------------------------------------------------------------------------
+0) Login
+   Done by: arnold
+   Explanation: created schema, including appuser table, populated with 
+   default user. Also created handler for login state as well as login page.
+   
+1) Game difficulty
+   Done by: shourovs
+   Explanation: added 3 difficulties to each game,
+   
+2) Mobile version - CSS
+   Done by: razaviaz
+   Explanation: optimized for mobile use,
+   
+3) Forgot password/security questions
+   Done by: razaviaz
+   Explanation: if you forget your password you can reset it by answering a security quetion, you made when you registered.
+   
+4) Sort game stats
+   Done by: shourovs
+   Explanation: you can sort the game leaderboards by game and difficulty.
+   
+5) Message board
+   Done by: shourovs
+   Explanation: you can post messages that all users can see.
+   
+5) Deactivate account
+   Done by: razaviaz
+   Explanation: delete your acount for the site.
+
+------------------------------------------------------------------------------------
+Unimplemented:
+------------------------------------------------------------------------------------
+
+6) Dark mode - needed javascript for effective dark mode.
+
+7) Choose icon pic - ran out of time.
