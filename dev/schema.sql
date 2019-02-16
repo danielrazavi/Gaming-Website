@@ -62,10 +62,7 @@ INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('GuessGame', 'Joe
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('GuessGame', 'Jeff', 950, 1);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('GuessGame', 'Dan', 942, 1);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('GuessGame', 'Andy', 512, 2);
-
 --
-
-
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('SlideGame', 'Billy', 854, 0);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('SlideGame', 'Kevin', 863, 0);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('SlideGame', 'Tim', 872, 0);
@@ -73,26 +70,21 @@ INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('SlideGame', 'Joe
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('SlideGame', 'Rio', 797, 1);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('SlideGame', 'Dan', 546, 1);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('SlideGame', 'Jeff', 854, 2);
-
 --
-
-
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('FrogGame', 'Sam', 985, 0);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('FrogGame', 'Kevin', 985, 0);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('FrogGame', 'Joe', 960, 1);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('FrogGame', 'Rio', 960, 1);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('FrogGame', 'Jenny', 935, 2);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('FrogGame', 'Jeff', 935, 2);
-
 --
-
-
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('2048Game', 'Andrew', 14241, 0);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('2048Game', 'Shuprio', 24556, 0);
 INSERT INTO scores (gameid, userid, score, difficulty) VALUES ('2048Game', 'Sabrina', 5644, 0);
-
 --
-
 INSERT INTO msg (userid, text, time) VALUES ('Shuprio','Hello', current_date);
-INSERT INTO msg (userid, text, time) VALUES ('Kevin','Ya Eh', current_date);
-
+INSERT INTO msg (userid, text, time) VALUES ('Kevin','Hey Rio!', current_date);
+INSERT INTO msg (userid, text, time) VALUES ('Jenny','Hi guys!', current_date);
+INSERT INTO msg (userid, text, time) VALUES ('Shuprio','Looks like everyone is here :\)', current_date);
+INSERT INTO msg (userid, text, time) VALUES ('Dan','Did you guys see my record?', current_date);
+INSERT INTO msg (userid, text, time) VALUES ('Kevin','Already have it beat.', current_date);
